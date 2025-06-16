@@ -44,7 +44,7 @@ app.post('/api/ratings', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`SysNexa backend running at http://localhost:${PORT}`);
+console.log(`SysNexa backend running on port ${PORT}`);
 });
 
 
